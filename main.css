@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
   padding: 10px;
@@ -28,7 +28,7 @@ header a {
 }
 
 button {
-  font-family: "raleway", sans-serif;
+  font-family: 'raleway', sans-serif;
   font-size: 15px;
   color: #fff;
   background-color: #23a030;
@@ -45,10 +45,9 @@ button {
   align-items: center;
   padding-top: 115px;
   padding-bottom: 115px;
-  background: url("img/back.png") no-repeat;
+  background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .about h1 {
@@ -75,4 +74,35 @@ button {
 }
 .about_info {
   max-width: 550px;
+}
+
+.form__container {
+  width: 550px;
+}
+
+.form {
+  background-color: #1d263a;
+  color: #fff;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 48px;
+}
+.form p {
+  font-size: 18px;
+  opacity: 0.65;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.form__submit {
 }
