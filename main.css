@@ -5,6 +5,14 @@ body {
   padding: 10px;
 }
 
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -58,6 +66,7 @@ button:hover {
   background: url('img/back.png') no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .about h1 {
