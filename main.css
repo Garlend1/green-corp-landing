@@ -18,10 +18,20 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  position: sticky;
+  position: fixed;
   background-color: #fff;
+  background: transparent;
   top: 0;
   z-index: 1;
+  left: 0;
+  right: 0;
+  transform: 0.25s ease;
+}
+
+.header__scrolled {
+  background-color: #fff;
+  box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
+  transition: background-color 0.5s ease;
 }
 
 .header__logo {
@@ -61,7 +71,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 115px;
+  padding-top: 200px;
   padding-bottom: 115px;
   background: url('img/back.png') no-repeat;
   background-position: center;
@@ -328,7 +338,7 @@ footer {
 
 .promo__text {
   background-color: white;
-  padding : 30px 40px;
+  padding: 30px 40px;
   font-size: 20px;
   line-height: 22px;
   font-weight: 500;
@@ -342,10 +352,10 @@ footer {
   content: '';
   display: inline-block;
   width: 10px;
- height: 10px;
- border-radius: 50%;
- background-color: #ec6b29;
- margin-right: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec6b29;
+  margin-right: 10px;
 }
 
 .promo__text button {
